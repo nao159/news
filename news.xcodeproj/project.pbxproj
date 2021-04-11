@@ -11,6 +11,10 @@
 		B5769FF926213C6D008B5D54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5769FF826213C6D008B5D54 /* ContentView.swift */; };
 		B5769FFB26213C6E008B5D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5769FFA26213C6E008B5D54 /* Assets.xcassets */; };
 		B5769FFE26213C6E008B5D54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5769FFD26213C6E008B5D54 /* Preview Assets.xcassets */; };
+		B576A0082621A6F1008B5D54 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576A0072621A6F1008B5D54 /* NetworkManager.swift */; };
+		B576A00C2621A989008B5D54 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576A00B2621A989008B5D54 /* PostData.swift */; };
+		B576A0102621D847008B5D54 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576A00F2621D847008B5D54 /* PostDetailView.swift */; };
+		B576A0132621E9F4008B5D54 /* showWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576A0122621E9F4008B5D54 /* showWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		B5769FFA26213C6E008B5D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5769FFD26213C6E008B5D54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5769FFF26213C6E008B5D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B576A0072621A6F1008B5D54 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B576A00B2621A989008B5D54 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		B576A00F2621D847008B5D54 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		B576A0122621E9F4008B5D54 /* showWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		B5769FF526213C6D008B5D54 /* news */ = {
 			isa = PBXGroup;
 			children = (
+				B576A0062621A6DF008B5D54 /* Model */,
 				B5769FF626213C6D008B5D54 /* newsApp.swift */,
-				B5769FF826213C6D008B5D54 /* ContentView.swift */,
+				B576A00E2621D7F9008B5D54 /* View */,
 				B5769FFA26213C6E008B5D54 /* Assets.xcassets */,
 				B5769FFF26213C6E008B5D54 /* Info.plist */,
 				B5769FFC26213C6E008B5D54 /* Preview Content */,
@@ -67,6 +76,25 @@
 				B5769FFD26213C6E008B5D54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B576A0062621A6DF008B5D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B576A0072621A6F1008B5D54 /* NetworkManager.swift */,
+				B576A00B2621A989008B5D54 /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B576A00E2621D7F9008B5D54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5769FF826213C6D008B5D54 /* ContentView.swift */,
+				B576A00F2621D847008B5D54 /* PostDetailView.swift */,
+				B576A0122621E9F4008B5D54 /* showWebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B576A0082621A6F1008B5D54 /* NetworkManager.swift in Sources */,
+				B576A0102621D847008B5D54 /* PostDetailView.swift in Sources */,
+				B576A0132621E9F4008B5D54 /* showWebView.swift in Sources */,
+				B576A00C2621A989008B5D54 /* PostData.swift in Sources */,
 				B5769FF926213C6D008B5D54 /* ContentView.swift in Sources */,
 				B5769FF726213C6D008B5D54 /* newsApp.swift in Sources */,
 			);
